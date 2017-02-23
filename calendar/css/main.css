@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 14px;
+}
+
+table {
+    width: 100%;
+    cursor: context-menu;
+}
+
+ul {
+    border: .2% 0% .2% 0% solid slategrey;
+    margin: 0px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.year {
+    background-image: url("./img/bg_year.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.weekdays {
+    background-color: deepskyblue;
+}
+
+.weekdays li {
+    width: 12.5%;
+    text-align: center;
+    padding: 2.5% 0% 2.5% 0%;
+}
+
+.weekdays .current {
+    color: red;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+.days {
+    background-color: lightskyblue;
+    padding-bottom: 2%;
+}
+
+.days li {
+    width: 12.5%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    margin: 2px 2px 2px 2px;
+}
+
+.days .current {
+    color: red;
+    border-radius: 15px;
+    background-color: lightseagreen;
+}
+
+.days li:hover {
+    background-color: lightblue;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#activeDay {
+    background-color: transparent;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#next {
+    font-size: 130%;
+    width: 20%;
+    text-align: right;
+}
+
+#next:hover {
+    color: red;
+}
+
+#prev {
+    font-size: 130%;
+    width: 20%;
+    text-align: left;
+}
+
+#prev:hover {
+    color: red;
+}
+#year {
+    width: 100%;
+}
